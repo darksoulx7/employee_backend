@@ -1,0 +1,8 @@
+@baseUrl = http://localhost:9090
+@urlPath = dev
+
+###
+GET {{baseUrl}}/{{urlPath}}/departments/get-all-departments
+Content-Type: application/json
+Accept: application/json
+withCredentials: true

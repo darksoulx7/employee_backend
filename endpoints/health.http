@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:9090
+
+###
+GET {{baseUrl}}/dev/health
+Content-Type: application/json
+Accept: application/json
+withCredentials: true
